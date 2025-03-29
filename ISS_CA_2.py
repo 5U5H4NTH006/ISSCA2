@@ -1,5 +1,5 @@
 def find_cube_pairs(targ): # added colon and changed target to targ
-    sol = [] # rmeoved semicolon
+    sol = [] # rmeoved semicolon and changed solutions to sol
     max_num = round(targ ** (1/3))  # removed *** to **
 
     for a in range(1, max_num + 1): # changed ranges-> range
